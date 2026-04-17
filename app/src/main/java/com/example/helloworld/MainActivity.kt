@@ -48,7 +48,7 @@ fun WebViewScreen() {
                 }
             }
             // 加载URL
-            loadUrl("https://www.ddz.cool/p/fin.html")
+            loadUrl("https://www.ddz.cool/p/finance.html")
         }
     }
     
