@@ -22,7 +22,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             MaterialTheme {
                 WebViewScreen()
-                
             }
         }
     }
@@ -49,7 +48,7 @@ fun WebViewScreen() {
                 }
             }
             // 加载URL
-            loadUrl("https://t.ddz.cool/?room=wang1991")
+            loadUrl("https://www.ddz.cool/p/fin.html")
         }
     }
     
