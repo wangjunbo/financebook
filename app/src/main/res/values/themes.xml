@@ -1,0 +1,9 @@
+<resources>
+    <!-- To see how these attributes are used, please visit https://material.io/develop/android/theming/color/ -->
+    <style name="Theme.HelloWorld" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- 设置状态栏透明 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowLightStatusBar">true</item> <!-- 可选：如果你希望状态栏文字是深色 -->
+    </style>
+</resources>
