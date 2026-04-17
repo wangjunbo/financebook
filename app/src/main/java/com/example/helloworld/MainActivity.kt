@@ -27,7 +27,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun WebViewScreen() {
     val context = LocalContext.current
