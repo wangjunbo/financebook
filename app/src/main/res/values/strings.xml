@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">HelloWorldApp</string>
+    <string name="app_name">我的记账</string>
     <string name="hello_world">Hello World!</string>
 </resources>
