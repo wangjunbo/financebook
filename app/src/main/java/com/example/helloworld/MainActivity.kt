@@ -6,8 +6,8 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.*
-import androidx.compose.material3.*
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.remember
@@ -67,20 +67,9 @@ fun WebViewScreen() {
         }
     }
     
-    Column(modifier = Modifier.fillMaxSize()) {
-        // 顶部应用栏
-        TopAppBar(
-            title = { Text("Hello World") },
-            colors = TopAppBarDefaults.topAppBarColors(
-                containerColor = MaterialTheme.colorScheme.primaryContainer,
-                titleContentColor = MaterialTheme.colorScheme.onPrimaryContainer
-            )
-        )
-        
-        // WebView 部分
-        AndroidView(
-            factory = { webView },
-            modifier = Modifier.weight(1f)
-        )
-    }
+    // WebView 部分
+    AndroidView(
+        factory = { webView },
+        modifier = Modifier.fillMaxSize()
+    )
 }
